@@ -1,0 +1,279 @@
+/*.container  {
+  margin-top:70px;
+}
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+body span {
+  color: white;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+span {
+  color: white;
+}
+
+h1 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838;
+}
+
+h1 span {
+  color: white;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838 	;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838 	;
+}
+
+h3 span {
+  color: white;
+}
+
+h4 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838 	;
+}
+h5 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838 	;
+}
+h6 {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #383838 	;
+}
+
+.unslder-arrow {
+}
+
+#container_bg {
+  background-color: #FAFAFA;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+  #image_wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #listslider {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.nav {
+  background-color: #ffe066;
+  /*padding-top: 12px;*/
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.my-slider {
+  width: 100%;
+}
+
+.my-slider li {
+  width: 100%;
+}
+
+.my-slider ul {
+  width: 100%;
+}
+
+#image_slider {
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    width: auto;
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+
+li {
+    display: inline;
+}
+
+
+
+a {
+  padding: 8px;
+}
+
+#imageslider{
+  margin: 0px auto;
+}
+
+#logo_image{
+  width: 100%;
+}
+
+#logo_image_container {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#navwrap{
+    width: 100%;
+    height: 50px;
+    background-color: #C00;
+}
+
+/*#wrapper {
+  top: 0;
+  text-align: center;
+  height: 30px;
+  border: none;
+  z-index:1000;
+  margin: 0 auto;
+  margin-top: -5%;
+}
+*/
+/*#image_container1 {
+  height: 100vh;
+  background-image:
+  url('https://40.media.tumblr.com/044c0059f5bd5bc2ec900efbd8cccdaf/tumblr_nzvnleJ1WJ1qajr6bo2_1280.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 100%;
+}
+*/
+
+.banner {
+  width: 100%;
+}
+
+#background_image1 {
+  background-image:
+    linear-gradient(rgba(30, 174, 219, 0.8), rgba(30, 174, 219, 0.8)),
+    url('https://41.media.tumblr.com/717c6a2f312e8e662af1ba9fcc50a894/tumblr_nzowsg3Vjd1qajr6bo2_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+  background-color: #ffe066;
+  padding-bottom: 12px;
+}
+#heading_container {
+  /*padding-top:12%;*/
+  height: 100vh;
+  /*box-sizing: border-box;*/
+  /*padding-bottom: 2%;*/
+}
+
+#title_container {
+  body-sizing: border-box;
+  /*padding-bottom: 5%;*/
+  padding-top: 3%;
+}
+
+#first_content {
+  body-sizing: border-box;
+  height: 90vh;
+  padding-top: 15%;
+}
+
+#description_container {
+  body-sizing: border-box;
+  padding-bottom: 5%;
+}
+
+#images {
+  overflow: hidden;
+  max-height: 100vh;
+}
+/*
+#intro_page {
+  height: 60vh;
+  padding-top: 10%;
+  background-color: #46acc2;
+  box-sizing: border-box;
+}
+*/
+
+
+
+/*#heading_container {
+background-color: #ffe066;
+}
+*/
+
+#about_page {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#ourservices_page {
+  min-height: 100vh;
+  /*background-image:url('https://40.media.tumblr.com/ac82f7bfe66ac677b76b8e471c586803/tumblr_nyy9fk5Lxs1qajr6bo1_1280.jpg');*/
+  background-image:
+    linear-gradient(rgba(30, 174, 219, 0.8), rgba(30, 174, 219, 0.8)),
+    url('https://41.media.tumblr.com/1f44142e3d36368a31cb572a694b9013/tumblr_nzowsg3Vjd1qajr6bo9_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#whoweare_page {
+  padding-bottom: 100px;
+  padding-top: 5%;
+}
+#contact_page {
+  padding-bottom: 100px;
+  background-color: #ffe066;
+  padding-top: 5%;
+
+}
+
+#profile_image {
+  width: 100%;
+  min-width: 100%;
+}
