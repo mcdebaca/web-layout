@@ -28,6 +28,7 @@ h1 {
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #383838;
+  font-size:
 }
 
 h1 span {
@@ -37,7 +38,8 @@ h1 span {
 h2 {
   font-family: 'Arvo', serif;
   font-weight: 400;
-  color: #383838 	;
+  color: #383838;
+  font-size: 44px;
 }
 
 h3 {
@@ -83,12 +85,6 @@ h6 {
     box-sizing: border-box;
   }
 
-  #listslider {
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 100vw;
-  }
-
 .sticky {
     position: fixed;
     width: 100%;
@@ -105,52 +101,36 @@ h6 {
   padding-top: 12px;
 }
 
-.my-slider {
-  width: 100%;
-  height: 100%;
-}
-
-.my-slider li {
-  width: 100%;
-  height: 100%;
-}
-
-.my-slider ul {
-  width: 100%;
-  margin: 0; padding: 0;
-  height: 100%;
-}
-
-#image_slider {
-  height: 100vh;
-  overflow: hidden;
-  box-sizing: border-box;
-  width: 100%;
-}
 
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0px;
-    width: auto;
     z-index: 1;
-    text-align: center;
-    margin: 0 auto;
-    }
+    text-align: justify;
+    margin: 0;
+      }
 
 
 li {
     display: inline;
 }
 
-
+ul li {
+    width: 15%;
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+}
 
 a {
   padding: 8px;
 }
 
-#imageslider{
-  margin: 0px auto;
+
+.menu {
+  text-align: center;
 }
+
 
 #logo_image{
   width: 100%;
@@ -171,9 +151,11 @@ a {
   width: 100%;
 }
 
+.banner ul { margin: 0; padding: 0; }
+
 #background_image1 {
   background-image:
-    linear-gradient(rgba(30, 174, 219, 0.8), rgba(30, 174, 219, 0.8)),
+    linear-gradient(rgba(30, 174, 219, 0.7), rgba(30, 174, 219, 0.7)),
     url('https://41.media.tumblr.com/717c6a2f312e8e662af1ba9fcc50a894/tumblr_nzowsg3Vjd1qajr6bo2_1280.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -198,8 +180,16 @@ a {
 
 #first_content {
   body-sizing: border-box;
-  height: 90vh;
+  height: 100vh;
   padding-top: 15%;
+}
+
+#background_overlay {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background:
+   linear-gradient(rgba(30, 174, 219, 0.7), rgba(30, 174, 219, 0.7)),
 }
 
 #description_container {
@@ -238,7 +228,7 @@ background-color: #ffe066;
   min-height: 100vh;
   /*background-image:url('https://40.media.tumblr.com/ac82f7bfe66ac677b76b8e471c586803/tumblr_nyy9fk5Lxs1qajr6bo1_1280.jpg');*/
   background-image:
-    linear-gradient(rgba(30, 174, 219, 0.8), rgba(30, 174, 219, 0.8)),
+    linear-gradient(rgba(30, 174, 219, 0.7), rgba(30, 174, 219, 0.7)),
     url('https://41.media.tumblr.com/1f44142e3d36368a31cb572a694b9013/tumblr_nzowsg3Vjd1qajr6bo9_1280.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -260,4 +250,106 @@ background-color: #ffe066;
 #profile_image {
   width: 100%;
   min-width: 100%;
+}
+
+/*BACKGROUND IMAGES*/
+.images1 {
+  z-index: 1;
+  position: absolute;
+}
+#images1 {
+position: absolute;
+height:100vh;
+width:100vw;
+margin:0 auto;
+overflow: hidden;
+}
+
+#images1 img {
+position: absolute;
+left:0;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+@-webkit-keyframes imagesFadeInOut {
+
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#images1 img.first {
+width: 100%;
+background-color: #fff;
+animation-name: imagesFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 14s;
+animation-direction: alternate;
+}
+
+#images1 img.second {
+width: 100%;
+animation-name: imagesFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 12s;
+animation-direction: alternate;
+}
+
+#images1 img.third {
+  width: 100%;
+  animation-name: imagesFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+#images1 img.fourth {
+  width: 100%;
+  animation-name: imagesFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}
+
+#images1 img.fifth {
+  width: 100%;
+  animation-name: imagesFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+
+#images1 img.sixth {
+  width: 100%;
+  animation-name: imagesFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+#images1 img.seventh {
+  width: 100%;
+  animation-name: imagesFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
 }
