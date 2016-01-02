@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360 Diversion of Orange County</title>
   <!--typefaces-->
 <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,6 +17,9 @@
   <!--java-->
   <script src="js/main.js"></script>
   <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="lean-slider.js"></script>
+<link rel="stylesheet" href="lean-slider.css" type="text/css" />
 </head>
 
 <body>
@@ -22,7 +28,7 @@
     <div class="container">
       <div class="row">
         <div class="ten columns offset-by-one">
-          <h1 align="center" id="title_container">360 Diversion of Orange County</h1>
+          <h2 align="center" id="title_container">360 Diversion of Orange County</h2>
         </div>
       </div>
     </div>
@@ -30,8 +36,8 @@
     <div class="wrapper">
       <div class="row" align="center">
         <div class="nav">
-          <div class="ten columns offset-by-one" align="center">
-            <ul align="center">
+          <div class="eight columns offset-by-two">
+            <ul class="menu">
               <li><a href="#aboutus">ABOUT US</a></li>
               <li><a href="#ourservices">OUR SERVICES</a></li>
               <li><a href="#whoweare">WHO WE ARE</a></li>
@@ -44,48 +50,40 @@
     </div>
   </div>
 
-
-    <div class="u-full-width">
-    <div id="background_image1">
-    <div class="row">
-    <div class="container">
-    <div class="u-full-width">
-    <div class="eight columns offset-by-two" id="first_content">
-    <h3 align="center"><span>Stopping the School to Prison Pipeline</span></h3>
-    <p id="description_container"><span>
-    360Diversion serves the Orange County area, focusing on community, civic, and social issues that impact the residents and greater region. Our goal is to take stock in the people and property, making our neighborhoods safe and inviting. When everyone pulls together the community thrives on all levels.
-    </span>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-
 <div class="u-full-width">
-<!--<div class="twelve columns">-->
-<div class="my-slider"  id="image_slider">
-  <ul id="listslider">
-    <li id="images"><img src="https://40.media.tumblr.com/5199b53e618f4dd1387774faa75167ba/tumblr_nz0pxss8lv1qajr6bo1_1280.png"></li>
-    <li id="images"><img src="https://41.media.tumblr.com/1f44142e3d36368a31cb572a694b9013/tumblr_nzowsg3Vjd1qajr6bo9_1280.jpg"></li>
-    <li id="images"><img src="https://40.media.tumblr.com/242efbdd33b13ee7a6803d1a582de0e8/tumblr_nzowsg3Vjd1qajr6bo8_1280.jpg"></li>
-    <li id="images"><img src="https://40.media.tumblr.com/044c0059f5bd5bc2ec900efbd8cccdaf/tumblr_nzowsg3Vjd1qajr6bo7_1280.jpg"></li>
-    <li id="images"><img src="https://41.media.tumblr.com/faea095bcaa8dfe43cdf0c081c7092fc/tumblr_nzowsg3Vjd1qajr6bo3_1280.jpg"></li>
-    <li id="images"><img src="https://41.media.tumblr.com/717c6a2f312e8e662af1ba9fcc50a894/tumblr_nzowsg3Vjd1qajr6bo2_1280.jpg"></li>
-    <li id="images"><img src="https://41.media.tumblr.com/6ec136bc055974bbaac58e5f663be995/tumblr_nzvnleJ1WJ1qajr6bo3_1280.jpg"></li>
-    <li id="images"><img src="https://41.media.tumblr.com/6caae5f5107208aab7190cb73c824932/tumblr_nzwbwguT5f1qajr6bo1_1280.jpg"></li>
-  </ul>
+  <div id="images1">
+  <img class="seventh" src="https://41.media.tumblr.com/6caae5f5107208aab7190cb73c824932/tumblr_nzwbwguT5f1qajr6bo1_1280.jpg">
+  <img class="sixth" src="https://41.media.tumblr.com/6ec136bc055974bbaac58e5f663be995/tumblr_nzvnleJ1WJ1qajr6bo3_1280.jpg">
+  <img class="fifth" src="https://41.media.tumblr.com/717c6a2f312e8e662af1ba9fcc50a894/tumblr_nzowsg3Vjd1qajr6bo2_1280.jpg">
+  <img class="fourth" src="https://41.media.tumblr.com/faea095bcaa8dfe43cdf0c081c7092fc/tumblr_nzowsg3Vjd1qajr6bo3_1280.jpg">
+  <img class="third" src="https://40.media.tumblr.com/044c0059f5bd5bc2ec900efbd8cccdaf/tumblr_nzowsg3Vjd1qajr6bo7_1280.jpg"/>
+  <img class="second" src="https://40.media.tumblr.com/242efbdd33b13ee7a6803d1a582de0e8/tumblr_nzowsg3Vjd1qajr6bo8_1280.jpg"/>
+  <img class="first" src="https://40.media.tumblr.com/5199b53e618f4dd1387774faa75167ba/tumblr_nz0pxss8lv1qajr6bo1_1280.png"/>
+  </div>
+</div>
+
+<div class="u-full-width" id="background_overlay">
+<div class="row">
+<div class="container">
+<div class="u-full-width">
+<div class="eight columns offset-by-two" id="first_content">
+<h3 align="center"><span>Stopping the School to Prison Pipeline</span></h3>
+<p id="description_container"><span>
+360Diversion serves the Orange County area, focusing on community, civic, and social issues that impact the residents and greater region. Our goal is to take stock in the people and property, making our neighborhoods safe and inviting. When everyone pulls together the community thrives on all levels.
+</span>
+</div>
+</div>
+</div>
 </div>
 </div>
 
-<!--</div>-->
+
 <a name="aboutus"></a>
 <div class="u-full-width" id="about_page">
 <div class="row">
   <div class="container">
 <div class="u-full-width">
 <div class="eight columns offset-by-two">
-
           <h1>About Us</h1>
           <p>
           360Diversion is dedicated to shaping the community foundation by encouraging smart growth and optimal change throughout our neighborhoods. Working toward the greater good, we strive to maintain an open door policy with our members and residents as well as engage in transparency.
@@ -278,8 +276,16 @@
 
 </div>
 </div>
+<script src="js/main.js"></script>
   <script src="unslider-master/src/js/unslider.js"></script>
 	<!--<script src="unslider-master/dist/js/unslider-min.js"></script>-->
+  <script>
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
+  </script>
   <script>
   jQuery(document).ready(function($) {
     $('.my-slider').unslider();
